@@ -234,6 +234,13 @@ p, a, li, textarea {
     grid-column-gap: 18px;
 }
 
+@media screen and (max-width: 980px) {
+    .main-content{
+        grid-column-gap: 3px;
+    }
+
+}
+
 .nav {
     max-width: 178px;
     width: auto;
