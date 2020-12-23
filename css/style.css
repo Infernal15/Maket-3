@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-width: 980px;
 }
 
 p, a, li, textarea {
@@ -488,6 +489,7 @@ p, a, li, textarea {
 
 #feedback-form {
     position: absolute;
+    min-width: 980px;
     width: 100%;
     max-height: 2315px;
     height: 9999px;
